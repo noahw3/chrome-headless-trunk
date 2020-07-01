@@ -8,6 +8,8 @@ Using the binary from the Chromium snapshot bucket
 $ docker run -it --rm -p=0.0.0.0:9222:9222 --name=chrome-headless -v /tmp/chromedata/:/data alpeware/chrome-headless-trunk
 ```
 
+Push to master and add a tag with the rev name and the docker builds should automatically trigger
+
 Inspired by
 - [beaufortfrancois](https://github.com/beaufortfrancois/download-chromium)
 - [National Library of Norway](https://github.com/nlnwa/docker-chrome-headless)
